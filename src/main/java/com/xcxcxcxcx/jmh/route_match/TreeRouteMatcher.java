@@ -50,7 +50,7 @@ public class TreeRouteMatcher implements RouteMatcher {
             List<TreeNode> treeNodes = root.sons;
             TreeNode temp = null;
             for (TreeNode treeNode : treeNodes) {
-                if ("**".equals(treeNode.nodePath)) {
+                if (GENERAL_PATTERN.equals(treeNode.nodePath)) {
                     return treeNode;
                 }
                 if (treeNode.nodePath.equals(nodePaths[curLevel])) {
