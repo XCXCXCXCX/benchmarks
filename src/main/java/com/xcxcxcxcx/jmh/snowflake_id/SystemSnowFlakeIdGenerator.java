@@ -1,4 +1,4 @@
-package org.hzero.jmh.snowflake_id;
+package com.xcxcxcxcx.jmh.snowflake_id;
 
 /**
  * @author XCXCXCXCX
