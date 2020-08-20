@@ -1,6 +1,7 @@
-package com.xcxcxcxcx.jmh.snowflake_id;
+package org.hzero.jmh.snowflake_id;
 
 import java.util.concurrent.ScheduledExecutorService;
+import java.util.concurrent.ScheduledFuture;
 import java.util.concurrent.ScheduledThreadPoolExecutor;
 import java.util.concurrent.TimeUnit;
 
